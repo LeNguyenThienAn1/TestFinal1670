@@ -1,6 +1,7 @@
+
+using FinalWeb.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
-using TestFinal.Models;
 
 namespace TestFinal.Controllers
 {

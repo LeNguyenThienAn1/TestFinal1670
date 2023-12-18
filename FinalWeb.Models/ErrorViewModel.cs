@@ -1,4 +1,4 @@
-namespace TestFinal.Models
+namespace FinalWeb.Models
 {
     public class ErrorViewModel
     {

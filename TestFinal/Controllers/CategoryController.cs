@@ -1,6 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using TestFinal.Data;
-using TestFinal.Models;
+﻿using FinalWeb.DataAccess.Data;
+using FinalWeb.Models;
+using Microsoft.AspNetCore.Mvc;
+
 
 namespace TestFinal.Controllers
 {
@@ -83,7 +84,7 @@ namespace TestFinal.Controllers
 
 		public IActionResult DeletePOST(int? id)
 		{
-			Category obj = _db.Categories.Find(id);
+			Category? obj = _db.Categories.Find(id);
 			if (obj == null) { 
 				return NotFound();
 			}
