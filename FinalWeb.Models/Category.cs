@@ -1,7 +1,8 @@
 ﻿using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
+using FinalWebBook.Models;
 
-namespace FinalWeb.Models
+namespace FinalWebBook.Models
 {
     public class Category
     {

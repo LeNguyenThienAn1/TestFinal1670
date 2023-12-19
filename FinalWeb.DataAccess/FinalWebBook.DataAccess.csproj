@@ -16,8 +16,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\FinalWeb.Models\FinalWeb.Models.csproj" />
-    <ProjectReference Include="..\FinalWeb.Utility\FinalWeb.Utility.csproj" />
+    <ProjectReference Include="..\FinalWeb.Models\FinalWebBook.Models.csproj" />
+    <ProjectReference Include="..\FinalWeb.Utility\FinalWebBook.Utility.csproj" />
   </ItemGroup>
 
 </Project>

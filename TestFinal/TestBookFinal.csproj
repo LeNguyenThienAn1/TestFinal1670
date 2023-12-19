@@ -18,8 +18,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\FinalWeb.DataAccess\FinalWeb.DataAccess.csproj" />
-    <ProjectReference Include="..\FinalWeb.Models\FinalWeb.Models.csproj" />
+	  
+    <ProjectReference Include="..\FinalWeb.DataAccess\FinalWebBook.DataAccess.csproj" />
+    <ProjectReference Include="..\FinalWeb.Models\FinalWebBook.Models.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
   </ItemGroup>
 
 </Project>

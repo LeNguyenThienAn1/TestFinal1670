@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34316.72
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestFinal", "TestFinal\TestFinal.csproj", "{AB56BB48-80FD-4D21-9BE9-9C5E6FD9B657}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestBookFinal", "TestFinal\TestBookFinal.csproj", "{AB56BB48-80FD-4D21-9BE9-9C5E6FD9B657}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinalWeb.DataAccess", "FinalWeb.DataAccess\FinalWeb.DataAccess.csproj", "{E3FCED7F-6FFC-418C-B0CA-9B6C0465AC77}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinalWebBook.DataAccess", "FinalWeb.DataAccess\FinalWebBook.DataAccess.csproj", "{E3FCED7F-6FFC-418C-B0CA-9B6C0465AC77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinalWeb.Models", "FinalWeb.Models\FinalWeb.Models.csproj", "{13970465-7BC7-45DD-A2E7-211842B6145C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinalWebBook.Models", "FinalWeb.Models\FinalWebBook.Models.csproj", "{13970465-7BC7-45DD-A2E7-211842B6145C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinalWeb.Utility", "FinalWeb.Utility\FinalWeb.Utility.csproj", "{68D5A217-F396-41C7-9DF6-D22B2F088FB3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinalWebBook.Utility", "FinalWeb.Utility\FinalWebBook.Utility.csproj", "{68D5A217-F396-41C7-9DF6-D22B2F088FB3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

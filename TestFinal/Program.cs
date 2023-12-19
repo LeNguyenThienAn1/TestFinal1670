@@ -1,8 +1,10 @@
-using FinalWeb.DataAccess.Data;
+using FinalWebBook.DataAccess.Data;
+using FinalWebBook.DataAccess.Repository.IRepository;
 using Microsoft.EntityFrameworkCore;
+using FinalWebBook.DataAccess.Repository.IRepository;
+using FinalWebBook.DataAccess.Repository;
 
-
-namespace TestFinal
+namespace TestBookFinal
 {
     public class Program
     {
@@ -15,7 +17,7 @@ namespace TestFinal
             builder.Services.AddDbContext<ApplicationDbContext>(options=>
              options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-
+            builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
             var app = builder.Build();
 
@@ -36,7 +38,7 @@ namespace TestFinal
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
+                pattern: "{area=Customer}/{controller=Home}/{action=Index}/{id?}");
 
             app.Run();
         }
