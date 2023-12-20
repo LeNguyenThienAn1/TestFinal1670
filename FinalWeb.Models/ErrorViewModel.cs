@@ -1,4 +1,4 @@
-namespace FinalWeb.Models
+namespace FinalWebBook.Models
 {
     public class ErrorViewModel
     {
