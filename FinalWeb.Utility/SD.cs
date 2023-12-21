@@ -4,9 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FinalWeb.Utility
+
+namespace FinalWebBook.Utility
 {
-	public static class SD
-	{
-	}
+    public static class SD
+    {
+        public const string Role_Customer = "Customer";
+        public const string Role_Company = "Company";
+        public const string Role_Admin = "Admin";
+        public const string Role_Employee = "Employee";
+
+    }
+
 }
