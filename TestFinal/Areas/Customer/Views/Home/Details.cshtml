@@ -29,10 +29,10 @@
                             <span class="badge">@Model.Category.Name</span>
                         </div>
                         <div class="row ps-2">
-                            <h6 class="text-dark text-opacity-50 ">ISBN : @Model.ISBN</h6>
+                            <h6 class="text-dark text-opacity-50 text-white">ISBN : @Model.ISBN</h6>
                         </div>
                         <div class="row ps-2">
-                            <h6 class="text-dark text-opacity-50  pb-2">
+                            <h6 class="text-dark text-opacity-50  pb-2 text-white">
                                 List Price:
                                 <span class="text-decoration-line-through">
                                     @Model.ListPrice.ToString("c")
@@ -111,11 +111,12 @@
         }
 
     .bg-gradient {
-        background: linear-gradient(to right, #3498db, #2c3e50);
+        background: linear-gradient(to right, #3498db,white
+        );
     }
 
     .fw-semibold {
-        font-weight: bold; 
+        font-weight: bold; s
     }
 
     .text-uppercase {
@@ -129,58 +130,61 @@
     }
 </style>
 <style>
-    /* Màu chữ và nền cho badge */
+    
     .badge {
         color: #fff;
-        background-color: #28a745; /* Màu xanh lá cây */
+        background-color: #28a745; 
     }
 
-    /* Màu chữ và nền cho giá gốc */
+   
     .text-decoration-line-through {
-        color: white; /* Màu xám */
+        color: white; 
     }
 
-    /* Màu chữ và nền cho các ô Quantity và Price */
+    
     .bg-white {
         background-color: #fff;
-        color: #343a40; /* Màu chữ đen */
-        border: 1px solid #dee2e6; /* Màu viền xám nhạt */
+        color: #343a40;
+        border: 1px solid #dee2e6; 
     }
 
-        /* Màu chữ và nền cho các ô Quantity và Price khi hover */
+        
         .bg-white:hover {
-            background-color: white; /* Màu nền xám nhạt khi hover */
+            background-color: white; 
         }
 
-    /* Màu chữ và nền cho nút Add to Cart */
+  
     .btn-primary {
-        background-color: #007bff; /* Màu xanh dương */
+        background-color: #007bff;
         border-color: #007bff;
         color: #fff;
     }
 
-        /* Màu chữ và nền cho nút Add to Cart khi hover */
+        
         .btn-primary:hover {
-            background-color: #0056b3; /* Màu xanh dương nhạt khi hover */
+            background-color: #0056b3; 
             border-color: #0056b3;
         }
 
-    /* Màu chữ và nền cho input Count */
+   
     .input-group-text {
-        background-color: #007bff; /* Màu xanh dương cho nền input group */
+        background-color: #007bff; 
         border-color: #007bff;
         color: #fff;
     }
 
-        /* Màu chữ và nền cho input Count khi hover */
+        
         .input-group-text:hover {
-            background-color: #0056b3; /* Màu xanh dương nhạt khi hover */
+            background-color: #0056b3; 
             border-color: #0056b3;
         }
 
-    /* Màu chữ và nền cho mô tả */
+    
     .text-secondary {
-        color: white; /* Màu xám */
+        color: white; 
+
     }
+
 </style>
+
 
